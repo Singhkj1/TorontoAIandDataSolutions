@@ -26,8 +26,13 @@ robots.txt, sitemap.xml
 
 ## Preview locally
 
+The quickest way is to double-click `index.html` to open it in your browser. Nothing needs installing, and links between pages work.
+
+To preview it exactly as it will run when hosted, at a `localhost` address, start a small local server from the project folder:
+
 ```bash
 python3 -m http.server 8080
+# Windows: python -m http.server 8080
 # then open http://localhost:8080
 ```
 
