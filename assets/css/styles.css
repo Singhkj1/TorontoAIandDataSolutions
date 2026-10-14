@@ -1,5 +1,5 @@
 /* ==========================================================================
-   NifyDataSolutions — site styles
+   Toronto AI and Data Solutions — site styles
    Plain CSS, no build step. Design tokens live in :root.
    ========================================================================== */
 
@@ -407,6 +407,18 @@ body.nav-open .site-header {
 .brand-name span {
   font-weight: 500;
   color: var(--text-muted);
+}
+
+/* The full name is too wide for one line beside the menu button on phones. */
+@media (max-width: 420px) {
+  .brand-name {
+    font-size: 1.05rem;
+    line-height: 1.1;
+  }
+
+  .brand-name span {
+    display: block;
+  }
 }
 
 .site-nav {

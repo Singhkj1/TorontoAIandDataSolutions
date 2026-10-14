@@ -1,6 +1,6 @@
-# NifyDataSolutions — website
+# Toronto AI and Data Solutions — website
 
-Marketing website for NifyDataSolutions: one partner for the full data and digital stack (websites, data engineering, analytics, machine learning and cloud reliability).
+Marketing website for Toronto AI and Data Solutions: one partner for the full data and digital stack (websites, data engineering, analytics, machine learning and cloud reliability).
 
 It's a static site in plain HTML, CSS and JavaScript. There's no build step, no framework and no dependencies, so it can be hosted anywhere that serves files.
 
@@ -42,7 +42,7 @@ These are placeholders I couldn't fill in without your input.
 
 1. **Contact form.** Create a free form at [formspree.io](https://formspree.io), then in `contact.html` replace `YOUR_FORM_ID` in the form's `action` with your form ID. Formspree emails every submission to you. Until you do this, the form shows a "not connected yet" message instead of failing silently.
 2. **Email address.** The site uses `hello@nifydatasolutions.com` on every page. If that's not the right address, find and replace it across all `.html` files.
-3. **Domain.** Canonical links, social-share tags, `sitemap.xml`, `robots.txt` and the structured data in `index.html` assume `https://www.nifydatasolutions.com`. Find and replace it if your domain is different.
+3. **Domain.** Canonical links, social-share tags, `sitemap.xml`, `robots.txt` and the structured data in `index.html` point to the GitHub Pages address, `https://singhkj1.github.io/TorontoAIandDataSolutions/`. Find and replace it if you move to your own domain.
 4. **Review the copy for commitments you want to make.** The site currently promises:
    - a reply within one business day
    - a 30-minute discovery call
@@ -66,7 +66,7 @@ Any static host works. There's no build command, and the publish directory is th
 - **Netlify / Vercel / Cloudflare Pages:** import the repository and leave the build command empty.
 - **GitHub Pages:** Settings → Pages → *Deploy from a branch* → choose the branch and `/ (root)`.
 
-`404.html` uses root-relative paths (`/assets/...`) so it works at any URL depth. That requires the site to be served from the root of a domain, such as a custom domain. If you host it under a sub-path (for example `username.github.io/NifyDataSolutions/`), add that prefix to the paths in `404.html`.
+`404.html` uses absolute paths so it works at any URL depth. They start with `/TorontoAIandDataSolutions/` to match the GitHub Pages address. If you move the site to the root of your own domain, remove that prefix from the paths in `404.html`.
 
 ## Editing tips
 

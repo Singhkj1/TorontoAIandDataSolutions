@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.nifydatasolutions.com/sitemap.xml
+Sitemap: https://singhkj1.github.io/TorontoAIandDataSolutions/sitemap.xml

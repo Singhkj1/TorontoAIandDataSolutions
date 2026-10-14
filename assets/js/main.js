@@ -1,4 +1,4 @@
-/* NifyDataSolutions — site behaviour. No dependencies. */
+/* Toronto AI and Data Solutions — site behaviour. No dependencies. */
 (function () {
   "use strict";
 
